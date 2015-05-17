@@ -1,0 +1,8 @@
+angular:
+    - angular.js
+font-awesome:
+    - awesome.css
+    - test.font
+jquery:
+    - dist/jquery.css
+    - jquery.js
