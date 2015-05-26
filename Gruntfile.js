@@ -59,7 +59,7 @@ module.exports = function(grunt) {
           bowerDir: 'test/fixtures/'
         },
         packages: ['font-awesome'],
-        dest: 'tmp/full_copy/'
+        dest: 'tmp/full_copy'
       },
       filtered_copy: {
         options: {

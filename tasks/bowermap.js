@@ -85,6 +85,7 @@ module.exports = function (grunt) {
       }).join('\n\n');
       grunt.file.write(dest, concatedContents);
     } else if (options.mode === 'copy') {
+      dest = dest.substr(dest.length - 1) === '/' ? dest : dest + '/';
       fileContents.forEach(function (fileToWrite) {
         grunt.file.write(dest + fileToWrite[0], fileToWrite[1]);
       });
